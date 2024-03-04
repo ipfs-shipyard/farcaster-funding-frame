@@ -9,12 +9,12 @@ export default {
         }
     },
     content: () => html`
-        <frame-image src="/images/poster-animated.gif" />
-        <frame-button>
-            🔳 Try Demo
+        <frame-image src="/images/ipshipyard-rocket-logo_230x230.jpg" />
+        <frame-button action="link" target="https://ipshipyard.gitwallet.co">
+          Donate Now!
         </frame-button>
-        <frame-button action="link" target="https://github.com/depatchedmode/simplest-frame">
-            {😺} View on Github
+        <frame-button action="link" target="https://ipshipyard.com/contact-us">
+            Contact Us
         </frame-button>
     `
 };

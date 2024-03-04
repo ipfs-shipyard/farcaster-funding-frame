@@ -6,10 +6,10 @@ export default {
     content: () => html`
         <frame-image src="/images/poster-animated.gif" />
         <frame-button>
-            🔳 Try Demo
+            Donate Now!
         </frame-button>
         <frame-button action="link" target="${process.env.STOLEN_REDIRECT_URL}">
-            👩‍🎤 View original cast
+            Contact Us
         </frame-button>
     `
 };
